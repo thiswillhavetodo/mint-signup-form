@@ -26,7 +26,7 @@ a {
     background-position: 0 0;
 }
 
-label, p, button, h1 {
+label, p, button, h1, small {
     font-family: 'AvenirNext',Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -48,28 +48,27 @@ label, p, button, h1 {
 }
 
 .ttlogo {
-    height: 23px;
-    width: 23px;
-    display: inline-block;
     background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos.png);
-    background-position: 0 23px;
-    padding-right: 5px;
+    background-position: 0px 23px;
+    width: 105px;
 }
 
-.turbotax-logo {
-    font-family: 'AvenirNext',Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: normal;
-    font-size: 20px;
-    color: #C1C5C8;
-    vertical-align: top 
+.qblogo {
+    background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos.png);
+    background-position: 238px 23px;
+    width: 129px;
 }
 
-.quickbooks-logo {
-    
+.mtlogo {
+    background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos.png);
+    background-position: 97px 23px;
+    width: 60px;
 }
 
-.mint-logo {
-    
+.mini-logo-holder {
+    height: 23px;
+    display: inline-block;
+    padding-right: 3px;
 }
 
 h1 {
@@ -110,7 +109,7 @@ fieldset {
     margin: auto;
     width: 380px;
     padding: 0 30px 0 30px;
-    border: 1px solid black;
+    border: 1px solid #C1C5C8;
     background: white;
 }
  
@@ -148,4 +147,46 @@ fieldset {
 .captcha {
     font-size: 10px;
     text-align: center;
+}
+
+.footer-logo {
+    display: block;
+    background-image: url(https://accounts.intuit.com/images/v2/intuit_grey.svg);
+    height: 40px;
+    width: 92px;
+    background-size: cover;
+    background-position: 0 0;
+    margin: auto;
+    -webkit-margin-before: 30px;
+}
+
+.footer-links-holder {
+    width: 225px;
+    margin: auto;
+}
+
+.footer-links {
+    -webkit-margin-after: 0;
+}
+
+.footer-links li {
+    display: inline;
+    padding: 0 4px;
+}
+
+.footer-smallprint {
+    width: 750px;
+    margin: auto;
+    text-align: center
+}
+
+.footer-smallprint small {
+    font-size: 12px;
+}
+
+.footer-link-text {
+    font-family: 'AvenirNext',Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #404040;
 }
