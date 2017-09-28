@@ -6,7 +6,10 @@
 		<link href="main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<div class="sign-in-bar"></div>
+		<div class="sign-in-bar">
+			<button class="sign-in-button"><span id="lock-image"></span><span class="button-text">Sign In</span></button>
+			<p class="existing-sign-in">Already have an Intuit account?<br><a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#">I forgot my User ID or Password</a></p>
+		</div>
 		<div class="logo-holder-bar">
 			<a href="#" class="logo"></a>
 		</div>
@@ -37,9 +40,12 @@
 			</fieldset>
 			<fieldset>
 			<label for="pwd">Password</label>
-			<input type="password" name="pwd" id="pwd" class="input-field" required>
+			<div class="input-container">
+				<input type="password" name="pwd" id="pwd" class="input-field" required>
+				<span class="lock-left-image"></span>
+			</div>
 			</fieldset>
-			<button type="submit" class="submit-button">Create Account</button>
+			<button type="submit" class="submit-button"><span id="lock-image"></span>Create Account</button>
 			<p class="legal"><em>By clicking Create Account, you agree to our <a href="https://accounts.intuit.com/terms-of-service" target="_blank">License Agreement</a> and <a href="https://security.intuit.com/privacy" target="_blank">Privacy Statement</a></em></p>
 			<div class="captchaHolder">
 				<p class="captcha">Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use</a>.</p>

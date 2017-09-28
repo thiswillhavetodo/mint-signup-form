@@ -6,11 +6,37 @@ body {
 .sign-in-bar {
     width: 100%;
     height: 70px;
+    padding-top: 2px
+}
+
+.existing-sign-in {
+    float: right;
+    -webkit-margin-before: 0;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.sign-in-button {
+    height: 34px;
+    width: 102px;
+    float: right;
+    margin-right: 23px;
+    background: linear-gradient(to bottom,#0077C5 0,#167CCC 100%);
+    border: 1px solid #4c4c4c;;
+    border-radius: 3px;
+    padding-top: 0;
+}
+
+.button-text {
+    color: white;
+    font-size: 14px;
 }
 
 .logo-holder-bar {
     width: 100%;
-    height: 58px;
+    height: 55px;
 }
 
 a {
@@ -34,13 +60,13 @@ label, p, button, h1, small {
 }
 
 .mini-logos {
-    height: 50px;
+    height: 60px;
     border-bottom: 1px solid #C1C5C8;
 }
 
 .mini-logo-list {
     -webkit-padding-start: 0;
-    padding-top: 5px
+    padding-top: 13px
 }
 
 .mini-logo-list li {
@@ -50,13 +76,13 @@ label, p, button, h1, small {
 .ttlogo {
     background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos.png);
     background-position: 0px 23px;
-    width: 105px;
+    width: 114px;
 }
 
 .qblogo {
     background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos.png);
     background-position: 238px 23px;
-    width: 129px;
+    width: 127px;
 }
 
 .mtlogo {
@@ -75,6 +101,7 @@ h1 {
     font-weight: 500;
     font-size: 24px;
     text-align: center;
+    line-height: 1.1;
 }
 
 .sub-header {
@@ -98,10 +125,23 @@ fieldset {
     height: 34px;
     padding-left: 8px;
     padding-right: 6px;
-    margin: 10px 0;
+    margin: 8px 0;
     border-radius: 3px;
     border: 1px solid #C1C5C8;
-    outline: 0;
+}
+
+.input-container {
+    position: relative;
+}
+
+.lock-left-image {
+    position: absolute;
+    top: 14px;
+    right: 2px;
+    background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png) no-repeat;
+    background-size: 66% 66%;
+    height: 32px;
+    width: 33px;
 }
  
 .sign-up-form {
@@ -119,10 +159,21 @@ fieldset {
     padding: 6px 12px;
     background: linear-gradient(to bottom,#0077C5 0,#167CCC 100%);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     border: 1px solid #0077C5;
     border-radius: 3px;
-    outline: 0;
+}
+
+#lock-image {
+    height: 1em;
+    width: .8em;
+    margin-top: 2px;
+    margin-right: 8px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://accounts.intuit.com/images/v2/icon-whitelock@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .disclaimer {
@@ -134,12 +185,13 @@ fieldset {
     box-sizing: border-box;
     margin: 40px;
     font-size: 12px;
+    line-height: 1.5
 }
 
 .captchaHolder {
     background: #eceef1;
     width: 376px;
-    height: 48px;
+    height: 46px;
     margin-left: -29px;
     padding-top: 12px;
 }
