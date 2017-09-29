@@ -18,6 +18,10 @@ body {
     text-align: right;
 }
 
+button {
+    cursor: pointer; 
+}
+
 .sign-in-button {
     height: 34px;
     width: 102px;
